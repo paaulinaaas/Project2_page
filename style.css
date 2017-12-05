@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	.navbar {
+	background-color: transparent;
+	border: none;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 0.8;
+	text-transform: uppercase;
+}
+	/*jumbotron*/
+.hero {
+	background: url(https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-color: gray;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.nav-color {
+	background-color:#C1C4B1;
+	color: #fff;
+}
+.slogan {
+	color: #fff;
+	margin-top: 20%;
+	text-align: center;
+}
+.slogan h1 {
+	text-transform: uppercase;
+	font-size: 65px;
+}
+.slogan p {
+	font-size: 22px
+}
+.slogan button {
+	text-transform: uppercase;
+	font-size: 13px;
+	background-color: #EE434A;
+	border: none;
+	height: 46px;
+	width: 200px;
+}
+.correct {
+	margin-bottom: 50px;
+}
+.features {
+	text-align: center;
+}
+.gallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+.gallery .pic {
+	width: 25%;
+	min-width: 200px;
+	padding: 1px;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+.crew {
+	margin: 100px auto;
+	text-align: center;
+}
+.crew h3 {
+	font-size: 22px;
+}
+.crew h4 {
+	color: #e84545;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.buttons  button {
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: solid 1px #A0A0A0;
+	color: #A9A9A9;
+}
+.photos {
+	background-color: #53354a;
+}
+.part1{
+	width: 50%;
+	display: inline-block;
+}
+.part1 img {
+	width: 100%;
+	height: 100%;
+}
+.part2 {
+	background-color: #53354a;
+	font-size: 25px;
+	padding: 18px;
+	text-align: center;
+	width: 50%;
+	float: right;
+	overflow: hidden;
+}
+.download {
+	text-align: center;
+	margin: 100px auto;
+	line-height: 2em;
+}
+.download h3 {
+	font-size: 28px;
+	font-weight: light;
+}
+.download p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+.download button {
+	border: none;
+	width: 280px;
+	height: 48px;
+	background-color: #e84545;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 13px;
+}
+footer {
+	color: #fff;
+	text-align: center;
+	background-color: #393D63;
+}
+.foot1 {
+	min-height: 250px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto 15%;
+	background-color: #393D63;
+}
+.foot1 .column {
+	flex: 1;
+	min-width: 200px;
+	padding: 5%;
+}
+.foot1 h5 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.foot1 button {
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background-color: transparent;
+	border: solid 2px #fff;
+}
+.foot2 {
+	height: 100px;
+	background-color: #313454;
+	position: relative;
+}
+.foot2 p {
+	display: inline;
+	margin-top: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+@media(max-width: 991px) { 
+.photos {
+	background-color: #53354a;
+}
+.part1{
+	width: 100%;
+	display: inline-block;
+}
+.part1 img {
+	width: 100%;
+	height: 100%;
+}
+.part2 {
+	background-color: #53354a;
+	font-size: 36px;
+	width: 100%;
+	float: none;
+}
+}
